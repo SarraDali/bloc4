@@ -1,0 +1,2023 @@
+{
+  "version": 3,
+  "sources": [
+    "../app.py"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;AAkDK;;AAAA;AAAA;AAAA;;AAAA;AAlDL;;;AAkDK;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAZA;;AAAA;AAAA;AAAA;;AAAA;AAtCL;;;AAAA;;;AAsCK;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAdA;;AAAA;AAAA;AAAA;;AAAA;AAxBL;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;;AAwBK;;;AAAA;;AAXA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AARL;;;AAAA;AAAA;;AAQK;;;AAAA;;AARL;;AAAA;;;;;;;;;AAQA;;;AAEe;;AAAc;;AAAd;AAAP;AACA;;AAAA;;AAAA;;AAA0B;;;;;AAA1B;;AAIO;;AAAA;AAAA;;AAAP;AACyB;AAAlB;;AAAA;AAAA;AAAA;;AAAA;AAAP;AACA;AAAQ;;AAAR;AAAsB;AAAtB;AACA;AAGQ;AAAE;;AAAF;AAFK;;AACF;;;;;;;;AAFX;;;;;AAAA;;AAMR;;;AAEe;;AAAA;AAAA;;AAAP;AACyB;AAAlB;;AAAA;AAAA;AAAA;;AAAA;AAAP;AACA;AAAQ;;AAAR;AAAsB;AAAtB;AACW;;AAAA;;AAAA;;AAAA;;AAAJ;AAAP;AACO;;AAAA;;AAAoB;;AAApB;AAAP;AACO;;AAAA;;AAAkB;;AAAqB;;AAArB;AAAlB;AAAP;AACA;AAEmB;;AACF;;;;;;;;;AAHjB;;;;AAAA;;;AAAA;;AAMR;;;AAEe;;AAAA;AAAA;;AAAP;AACyB;;AAAlB;;AAAA;AAAA;AAAA;;AAAA;AAAP;AACA;;AAAQ;;AAAR;AAAsB;AAAtB;AACO;;AAAA;AAAA;AAAgB;AAAhB;AAAP;AAEQ;;AAChB;;AAAA;;AAAA;AAAA;;;AACqB;;AAAA;;AAAA;AAAA;;AAAA;AAAT;;AAAA;AAAA;;;;;;;;;AACJ;;AAAA;;AAAA;AAER;;;AAEe;;AAAA;AAAA;;AAAP;AACyB;;AAAlB;;AAAA;AAAA;AAAA;;AAAA;AAAP;AACA;;AAAQ;;AAAR;AAAsB;AAAtB;AACe;;AAAf;AAAA;;AAAA;;AAAA;AACsB;;AAAf;AAAA;AAAP",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "app.Eval.__algopy_entrypoint_with_init",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 1 0 2"
+    },
+    "6": {
+      "op": "bytecblock 0x80 0x151f7c75 \"q1\" \"q2\" \"q3\" \"q4\""
+    },
+    "27": {
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#2"
+      ],
+      "stack_out": [
+        "tmp%0#2"
+      ]
+    },
+    "29": {
+      "op": "bz main_bare_routing@10",
+      "stack_out": []
+    },
+    "32": {
+      "op": "pushbytess 0x91dfa024 0xceee6c1a 0xc7b9bbb3 0x4f54e787 0xa72aceed // method \"add_students(account)void\", method \"claim_algo()void\", method \"opt_in_to_asset(pay,asset)void\", method \"sum(byte[])uint64\", method \"update_box(string)string\"",
+      "defined_out": [
+        "Method(add_students(account)void)",
+        "Method(claim_algo()void)",
+        "Method(opt_in_to_asset(pay,asset)void)",
+        "Method(sum(byte[])uint64)",
+        "Method(update_box(string)string)"
+      ],
+      "stack_out": [
+        "Method(add_students(account)void)",
+        "Method(claim_algo()void)",
+        "Method(opt_in_to_asset(pay,asset)void)",
+        "Method(sum(byte[])uint64)",
+        "Method(update_box(string)string)"
+      ]
+    },
+    "59": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(add_students(account)void)",
+        "Method(claim_algo()void)",
+        "Method(opt_in_to_asset(pay,asset)void)",
+        "Method(sum(byte[])uint64)",
+        "Method(update_box(string)string)",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "Method(add_students(account)void)",
+        "Method(claim_algo()void)",
+        "Method(opt_in_to_asset(pay,asset)void)",
+        "Method(sum(byte[])uint64)",
+        "Method(update_box(string)string)",
+        "tmp%2#0"
+      ]
+    },
+    "62": {
+      "op": "match main_add_students_route@5 main_claim_algo_route@6 main_opt_in_to_asset_route@7 main_sum_route@8 main_update_box_route@9",
+      "stack_out": []
+    },
+    "74": {
+      "block": "main_after_if_else@12",
+      "stack_in": [],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "75": {
+      "op": "return",
+      "stack_out": []
+    },
+    "76": {
+      "block": "main_update_box_route@9",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%27#0"
+      ],
+      "stack_out": [
+        "tmp%27#0"
+      ]
+    },
+    "78": {
+      "op": "!",
+      "defined_out": [
+        "tmp%28#0"
+      ],
+      "stack_out": [
+        "tmp%28#0"
+      ]
+    },
+    "79": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "80": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%29#0"
+      ],
+      "stack_out": [
+        "tmp%29#0"
+      ]
+    },
+    "82": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "83": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%31#0"
+      ],
+      "stack_out": [
+        "tmp%31#0"
+      ]
+    },
+    "86": {
+      "callsub": "app.Eval.update_box",
+      "op": "callsub update_box",
+      "defined_out": [
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0"
+      ]
+    },
+    "89": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0",
+        "0x151f7c75"
+      ]
+    },
+    "90": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%32#0"
+      ]
+    },
+    "91": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%33#0"
+      ],
+      "stack_out": [
+        "tmp%33#0"
+      ]
+    },
+    "92": {
+      "op": "log",
+      "stack_out": []
+    },
+    "93": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "94": {
+      "op": "return",
+      "stack_out": []
+    },
+    "95": {
+      "block": "main_sum_route@8",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%20#0"
+      ],
+      "stack_out": [
+        "tmp%20#0"
+      ]
+    },
+    "97": {
+      "op": "!",
+      "defined_out": [
+        "tmp%21#0"
+      ],
+      "stack_out": [
+        "tmp%21#0"
+      ]
+    },
+    "98": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "99": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%22#0"
+      ],
+      "stack_out": [
+        "tmp%22#0"
+      ]
+    },
+    "101": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "102": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%24#0"
+      ],
+      "stack_out": [
+        "tmp%24#0"
+      ]
+    },
+    "105": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "tmp%25#0"
+      ],
+      "stack_out": [
+        "tmp%25#0"
+      ]
+    },
+    "108": {
+      "callsub": "app.Eval.sum",
+      "op": "callsub sum",
+      "defined_out": [
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0"
+      ]
+    },
+    "111": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "112": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "113": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "114": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%26#0"
+      ],
+      "stack_out": [
+        "tmp%26#0"
+      ]
+    },
+    "115": {
+      "op": "log",
+      "stack_out": []
+    },
+    "116": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "117": {
+      "op": "return",
+      "stack_out": []
+    },
+    "118": {
+      "block": "main_opt_in_to_asset_route@7",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "tmp%13#0"
+      ]
+    },
+    "120": {
+      "op": "!",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0"
+      ]
+    },
+    "121": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "122": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "tmp%15#0"
+      ]
+    },
+    "124": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "125": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "tmp%17#0"
+      ]
+    },
+    "127": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "tmp%17#0",
+        "1"
+      ]
+    },
+    "128": {
+      "op": "-",
+      "defined_out": [
+        "gtxn_idx%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0"
+      ]
+    },
+    "129": {
+      "op": "dup",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_idx%0#0 (copy)"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_idx%0#0 (copy)"
+      ]
+    },
+    "130": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0"
+      ]
+    },
+    "132": {
+      "op": "intc_0 // pay",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0",
+        "pay"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0",
+        "pay"
+      ]
+    },
+    "133": {
+      "op": "==",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type_matches%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type_matches%0#0"
+      ]
+    },
+    "134": {
+      "error": "transaction type is pay",
+      "op": "assert // transaction type is pay",
+      "stack_out": [
+        "gtxn_idx%0#0"
+      ]
+    },
+    "135": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "reinterpret_bytes[1]%1#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "reinterpret_bytes[1]%1#0"
+      ]
+    },
+    "138": {
+      "op": "btoi",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "tmp%18#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "tmp%18#0"
+      ]
+    },
+    "139": {
+      "op": "txnas Assets",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "tmp%19#0"
+      ]
+    },
+    "141": {
+      "callsub": "app.Eval.opt_in_to_asset",
+      "op": "callsub opt_in_to_asset",
+      "stack_out": []
+    },
+    "144": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "145": {
+      "op": "return",
+      "stack_out": []
+    },
+    "146": {
+      "block": "main_claim_algo_route@6",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%9#0"
+      ]
+    },
+    "148": {
+      "op": "!",
+      "defined_out": [
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "tmp%10#0"
+      ]
+    },
+    "149": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "150": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
+      ]
+    },
+    "152": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "153": {
+      "callsub": "app.Eval.claim_algo",
+      "op": "callsub claim_algo"
+    },
+    "156": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "157": {
+      "op": "return",
+      "stack_out": []
+    },
+    "158": {
+      "block": "main_add_students_route@5",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "160": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "161": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "162": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "164": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "165": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%0#0"
+      ]
+    },
+    "168": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "169": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "171": {
+      "callsub": "app.Eval.add_students",
+      "op": "callsub add_students",
+      "stack_out": []
+    },
+    "174": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "175": {
+      "op": "return",
+      "stack_out": []
+    },
+    "176": {
+      "block": "main_bare_routing@10",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%34#0"
+      ],
+      "stack_out": [
+        "tmp%34#0"
+      ]
+    },
+    "178": {
+      "op": "bnz main_after_if_else@12",
+      "stack_out": []
+    },
+    "181": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%35#0"
+      ],
+      "stack_out": [
+        "tmp%35#0"
+      ]
+    },
+    "183": {
+      "op": "!",
+      "defined_out": [
+        "tmp%36#0"
+      ],
+      "stack_out": [
+        "tmp%36#0"
+      ]
+    },
+    "184": {
+      "error": "can only call when creating",
+      "op": "assert // can only call when creating",
+      "stack_out": []
+    },
+    "185": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "186": {
+      "op": "return",
+      "stack_out": []
+    },
+    "187": {
+      "subroutine": "app.Eval.add_students",
+      "params": {
+        "account#0": "bytes"
+      },
+      "block": "add_students",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "190": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "192": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "194": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "195": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "196": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "account#0 (copy)"
+      ],
+      "stack_out": [
+        "account#0 (copy)"
+      ]
+    },
+    "198": {
+      "op": "box_del",
+      "defined_out": [
+        "{box_del}"
+      ],
+      "stack_out": [
+        "{box_del}"
+      ]
+    },
+    "199": {
+      "op": "pop",
+      "stack_out": []
+    },
+    "200": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "account#0 (copy)"
+      ]
+    },
+    "202": {
+      "op": "pushbytes 0x000120",
+      "defined_out": [
+        "0x000120",
+        "account#0 (copy)"
+      ],
+      "stack_out": [
+        "account#0 (copy)",
+        "0x000120"
+      ]
+    },
+    "207": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "208": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "209": {
+      "subroutine": "app.Eval.claim_algo",
+      "params": {},
+      "block": "claim_algo",
+      "stack_in": [],
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "211": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "212": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%0#0"
+      ]
+    },
+    "214": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "215": {
+      "op": "bytec_2 // \"q1\"",
+      "defined_out": [
+        "\"q1\""
+      ],
+      "stack_out": [
+        "\"q1\""
+      ]
+    },
+    "216": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"q1\"",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "\"q1\"",
+        "tmp%2#0"
+      ]
+    },
+    "218": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "219": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "220": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%1#0"
+      ]
+    },
+    "222": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "223": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "224": {
+      "op": "bytec_2 // \"q1\"",
+      "stack_out": [
+        "\"q1\""
+      ]
+    },
+    "225": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"q1\"",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "\"q1\"",
+        "tmp%5#0"
+      ]
+    },
+    "227": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0"
+      ]
+    },
+    "228": {
+      "op": "bytec_0 // 0x80",
+      "defined_out": [
+        "0x80",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0",
+        "0x80"
+      ]
+    },
+    "229": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "230": {
+      "op": "itxn_begin"
+    },
+    "231": {
+      "op": "intc_2 // 2",
+      "defined_out": [
+        "2"
+      ],
+      "stack_out": [
+        "2"
+      ]
+    },
+    "232": {
+      "op": "global MinTxnFee",
+      "defined_out": [
+        "2",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "2",
+        "tmp%7#0"
+      ]
+    },
+    "234": {
+      "op": "*",
+      "defined_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "235": {
+      "op": "txn Sender",
+      "defined_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "237": {
+      "op": "pushint 500000 // 500000",
+      "defined_out": [
+        "500000",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "500000"
+      ]
+    },
+    "241": {
+      "op": "itxn_field Amount",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "243": {
+      "op": "itxn_field Receiver",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "245": {
+      "op": "intc_0 // pay",
+      "defined_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "pay"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "pay"
+      ]
+    },
+    "246": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "248": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "250": {
+      "op": "itxn_submit"
+    },
+    "251": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "252": {
+      "subroutine": "app.Eval.opt_in_to_asset",
+      "params": {
+        "mbr_pay#0": "uint64",
+        "asset#0": "uint64"
+      },
+      "block": "opt_in_to_asset",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "255": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "257": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "258": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%0#0"
+      ]
+    },
+    "260": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "261": {
+      "op": "bytec_3 // \"q2\"",
+      "defined_out": [
+        "\"q2\""
+      ],
+      "stack_out": [
+        "\"q2\""
+      ]
+    },
+    "262": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"q2\"",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "\"q2\"",
+        "tmp%2#0"
+      ]
+    },
+    "264": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "265": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "266": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%1#0"
+      ]
+    },
+    "268": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "269": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "270": {
+      "op": "bytec_3 // \"q2\"",
+      "stack_out": [
+        "\"q2\""
+      ]
+    },
+    "271": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"q2\"",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "\"q2\"",
+        "tmp%5#0"
+      ]
+    },
+    "273": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0"
+      ]
+    },
+    "274": {
+      "op": "bytec_0 // 0x80",
+      "defined_out": [
+        "0x80",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0",
+        "0x80"
+      ]
+    },
+    "275": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "276": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "278": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "asset#0 (copy)",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "280": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ]
+    },
+    "282": {
+      "op": "bury 1",
+      "stack_out": [
+        "tmp%9#0"
+      ]
+    },
+    "284": {
+      "op": "!",
+      "defined_out": [
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "tmp%10#0"
+      ]
+    },
+    "285": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "286": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "mbr_pay#0 (copy)"
+      ],
+      "stack_out": [
+        "mbr_pay#0 (copy)"
+      ]
+    },
+    "288": {
+      "op": "gtxns Receiver",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
+      ]
+    },
+    "290": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%11#0",
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "tmp%11#0",
+        "tmp%12#0"
+      ]
+    },
+    "292": {
+      "op": "==",
+      "defined_out": [
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "tmp%13#0"
+      ]
+    },
+    "293": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "294": {
+      "op": "frame_dig -2",
+      "stack_out": [
+        "mbr_pay#0 (copy)"
+      ]
+    },
+    "296": {
+      "op": "gtxns Amount",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0"
+      ]
+    },
+    "298": {
+      "op": "global MinBalance",
+      "defined_out": [
+        "tmp%14#0",
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "tmp%15#0"
+      ]
+    },
+    "300": {
+      "op": "global AssetOptInMinBalance",
+      "defined_out": [
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%16#0"
+      ]
+    },
+    "302": {
+      "op": "+",
+      "defined_out": [
+        "tmp%14#0",
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "tmp%17#0"
+      ]
+    },
+    "303": {
+      "op": "==",
+      "defined_out": [
+        "tmp%18#0"
+      ],
+      "stack_out": [
+        "tmp%18#0"
+      ]
+    },
+    "304": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "305": {
+      "op": "itxn_begin"
+    },
+    "306": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "308": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "0"
+      ]
+    },
+    "309": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "311": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": []
+    },
+    "313": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "asset#0 (copy)"
+      ]
+    },
+    "315": {
+      "op": "itxn_field XferAsset",
+      "stack_out": []
+    },
+    "317": {
+      "op": "pushint 4 // axfer",
+      "defined_out": [
+        "axfer"
+      ],
+      "stack_out": [
+        "axfer"
+      ]
+    },
+    "319": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "321": {
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "322": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "324": {
+      "op": "itxn_submit"
+    },
+    "325": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "326": {
+      "subroutine": "app.Eval.sum",
+      "params": {
+        "array#0": "bytes"
+      },
+      "block": "sum",
+      "stack_in": [],
+      "op": "proto 1 1"
+    },
+    "329": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "331": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "332": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%0#0"
+      ]
+    },
+    "334": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "335": {
+      "op": "bytec 4 // \"q3\"",
+      "defined_out": [
+        "\"q3\""
+      ],
+      "stack_out": [
+        "\"q3\""
+      ]
+    },
+    "337": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"q3\"",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "\"q3\"",
+        "tmp%2#0"
+      ]
+    },
+    "339": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "340": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "341": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%1#0"
+      ]
+    },
+    "343": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "344": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "345": {
+      "op": "bytec 4 // \"q3\"",
+      "stack_out": [
+        "\"q3\""
+      ]
+    },
+    "347": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"q3\"",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "\"q3\"",
+        "tmp%5#0"
+      ]
+    },
+    "349": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0"
+      ]
+    },
+    "350": {
+      "op": "bytec_0 // 0x80",
+      "defined_out": [
+        "0x80",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0",
+        "0x80"
+      ]
+    },
+    "351": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "352": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "array#0 (copy)"
+      ],
+      "stack_out": [
+        "array#0 (copy)"
+      ]
+    },
+    "354": {
+      "op": "len",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "355": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%7#0"
+      ]
+    },
+    "356": {
+      "op": "intc_2 // 2",
+      "defined_out": [
+        "2",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%7#0",
+        "2"
+      ]
+    },
+    "357": {
+      "op": "==",
+      "defined_out": [
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%8#0"
+      ]
+    },
+    "358": {
+      "op": "assert",
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "359": {
+      "op": "intc_1 // 0"
+    },
+    "360": {
+      "op": "dup",
+      "defined_out": [
+        "item_index_internal%0#0",
+        "tmp%7#0",
+        "total#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0"
+      ]
+    },
+    "361": {
+      "block": "sum_for_header@1",
+      "stack_in": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0"
+      ],
+      "op": "frame_dig 2",
+      "defined_out": [
+        "item_index_internal%0#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0"
+      ]
+    },
+    "363": {
+      "op": "frame_dig 0",
+      "defined_out": [
+        "item_index_internal%0#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0",
+        "tmp%7#0"
+      ]
+    },
+    "365": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "item_index_internal%0#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "continue_looping%0#0"
+      ]
+    },
+    "366": {
+      "op": "bz sum_after_for@4",
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0"
+      ]
+    },
+    "369": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "array#0 (copy)",
+        "item_index_internal%0#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "array#0 (copy)"
+      ]
+    },
+    "371": {
+      "op": "frame_dig 2",
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "array#0 (copy)",
+        "item_index_internal%0#0"
+      ]
+    },
+    "373": {
+      "op": "dup",
+      "defined_out": [
+        "array#0 (copy)",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0 (copy)",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "array#0 (copy)",
+        "item_index_internal%0#0 (copy)",
+        "item_index_internal%0#0 (copy)"
+      ]
+    },
+    "374": {
+      "op": "cover 2",
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0",
+        "array#0 (copy)",
+        "item_index_internal%0#0 (copy)"
+      ]
+    },
+    "376": {
+      "op": "getbyte",
+      "defined_out": [
+        "item_index_internal%0#0",
+        "tmp%7#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0",
+        "tmp%9#0"
+      ]
+    },
+    "377": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "item_index_internal%0#0",
+        "tmp%7#0",
+        "tmp%9#0",
+        "total#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0",
+        "tmp%9#0",
+        "total#0"
+      ]
+    },
+    "379": {
+      "op": "+",
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0",
+        "total#0"
+      ]
+    },
+    "380": {
+      "op": "frame_bury 1",
+      "defined_out": [
+        "item_index_internal%0#0",
+        "tmp%7#0",
+        "total#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0"
+      ]
+    },
+    "382": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "item_index_internal%0#0",
+        "tmp%7#0",
+        "total#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0",
+        "1"
+      ]
+    },
+    "383": {
+      "op": "+",
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "item_index_internal%0#0"
+      ]
+    },
+    "384": {
+      "op": "frame_bury 2",
+      "defined_out": [
+        "item_index_internal%0#0",
+        "tmp%7#0",
+        "total#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0"
+      ]
+    },
+    "386": {
+      "op": "b sum_for_header@1"
+    },
+    "389": {
+      "block": "sum_after_for@4",
+      "stack_in": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0"
+      ],
+      "op": "frame_dig 1",
+      "defined_out": [
+        "total#0"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "total#0",
+        "item_index_internal%0#0",
+        "total#0"
+      ]
+    },
+    "391": {
+      "op": "frame_bury 0"
+    },
+    "393": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "394": {
+      "subroutine": "app.Eval.update_box",
+      "params": {
+        "value#0": "bytes"
+      },
+      "block": "update_box",
+      "stack_in": [],
+      "op": "proto 1 1"
+    },
+    "397": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "399": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "400": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%0#0"
+      ]
+    },
+    "402": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "403": {
+      "op": "bytec 5 // \"q4\"",
+      "defined_out": [
+        "\"q4\""
+      ],
+      "stack_out": [
+        "\"q4\""
+      ]
+    },
+    "405": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"q4\"",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "\"q4\"",
+        "tmp%2#0"
+      ]
+    },
+    "407": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "408": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "409": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%1#0"
+      ]
+    },
+    "411": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "412": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "413": {
+      "op": "bytec 5 // \"q4\"",
+      "stack_out": [
+        "\"q4\""
+      ]
+    },
+    "415": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"q4\"",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "\"q4\"",
+        "tmp%5#0"
+      ]
+    },
+    "417": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0"
+      ]
+    },
+    "418": {
+      "op": "bytec_0 // 0x80",
+      "defined_out": [
+        "0x80",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0",
+        "0x80"
+      ]
+    },
+    "419": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "420": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "422": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%7#0",
+        "tmp%7#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "tmp%7#0 (copy)"
+      ]
+    },
+    "423": {
+      "op": "box_del",
+      "defined_out": [
+        "tmp%7#0",
+        "{box_del}"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "{box_del}"
+      ]
+    },
+    "424": {
+      "op": "pop",
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "425": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "tmp%7#0",
+        "value#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%7#0",
+        "value#0 (copy)"
+      ]
+    },
+    "427": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "428": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%9#0"
+      ]
+    },
+    "430": {
+      "op": "box_get",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "431": {
+      "error": "check self.q4_string entry exists",
+      "op": "assert // check self.q4_string entry exists",
+      "stack_out": [
+        "maybe_value%2#0"
+      ]
+    },
+    "432": {
+      "retsub": true,
+      "op": "retsub"
+    }
+  }
+}
